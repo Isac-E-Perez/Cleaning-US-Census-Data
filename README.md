@@ -5,5 +5,5 @@ For this project, I implemented data analysis using R. I used the libraries read
  
 ### Note:
 
-There is data from 10 different .csv of different states. 
+There is data from 10 different .csv of different states taken into consideration. 
  
