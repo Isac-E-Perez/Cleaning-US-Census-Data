@@ -68,4 +68,4 @@ Afterwards, I wanted to confirm that there were no more duplicated rows in *us_c
 
 ![14](https://user-images.githubusercontent.com/89553126/135877430-f8df35e8-2e8f-4270-8079-8f688fd0252c.PNG)
 
-I viewed the data frame one last time to ensure everything was cleaned and ready for analysis. Afterwards, I concluded that yes, the data frame was cleaned and ready for future analysis when needed.
+I viewed the data frame one last time to ensure everything was cleaned and ready for analysis. Afterwards I concluded that yes, the data frame was cleaned and ready for future analysis when needed.
