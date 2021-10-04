@@ -9,7 +9,7 @@ There is data from 10 different .csv of all 50 states.
 
 ### Results:
 
-The goal of this project is to demonstrate that I have knowledge in how to clean and tidy datasets that were just collected.
+The goal of this project is to demonstrate that I have knowledge in how to clean and tidy datasets that were just collected and get them ready for data analysis.
 
 I could see that all of the datasets have similar aspects in the save file name. I could take advantage of this when reading the files. It is easier to inspect datasets stored when the files have a data frame.I could read each file in *files* into a data frame using *lapply* and save the result to *df_list* 
 
@@ -50,3 +50,22 @@ I then took a second look back to the colums Hispanic, White, Black, Native, Asi
 
 ![9](https://user-images.githubusercontent.com/89553126/135876127-657ea070-e646-4aed-bfd8-324058bb1e52.PNG)
 
+I then checked if duplicate rows are present in the dataset and viewed the results in a table to get a count of the duplicated rows.
+
+![10](https://user-images.githubusercontent.com/89553126/135876510-db54bb62-562f-4c7e-8e8b-9e2d411a044c.PNG)
+
+**TRUE means that there is duplicated data present**
+
+![12](https://user-images.githubusercontent.com/89553126/135877016-536bdb29-2e1f-4aa4-99ba-c278b6748746.PNG)
+
+The code told me that duplicates were present so since there are duplicates I updated the *us_ccensus* data frame with only unique/distinct rows.
+
+![11](https://user-images.githubusercontent.com/89553126/135876749-78154b18-5dfd-4c96-8789-02a64410e594.PNG)
+
+Afterwards, I wanted to confirm that there were no more duplicated rows in *us_census*.
+
+![13](https://user-images.githubusercontent.com/89553126/135877350-8abb695f-e42d-400e-bc98-a66bc741d186.PNG)
+
+![14](https://user-images.githubusercontent.com/89553126/135877430-f8df35e8-2e8f-4270-8079-8f688fd0252c.PNG)
+
+I viewed the data frame one last time to ensure everything was cleaned and ready for analysis. Afterwards, I concluded that yes, the data frame was cleaned and ready for future analysis when needed.
