@@ -29,3 +29,24 @@ I noticed that there are six columns representing the popuation percentage from 
 
 ![4](https://user-images.githubusercontent.com/89553126/135872559-549e6830-7af4-4951-b59d-ce989dd80120.PNG)
 
+The Income column also includes a $ symbol along with the number representing median income for the state. Therefore, I removed the $ from the Income column, saved the results to *us_census* and viewed the data.
+
+![5](https://user-images.githubusercontent.com/89553126/135874590-5857c886-00c0-48ea-be23-3f63987e867a.PNG)
+
+The GenderPop column held both male and female population counts. I separate this column at the _ character to create two new columns: *male_pop* and *female_pop* and saved the results into the data frame *us_census*. I did this to it would be easier to read and analyze the data.
+
+
+![6](https://user-images.githubusercontent.com/89553126/135874919-7b785203-1fd6-4cbf-9e23-a667c2b71de2.PNG)
+
+Afterwards, I cleaned the male and female population coumns since the columns contained extra characters M and F, respectively.
+
+![7](https://user-images.githubusercontent.com/89553126/135875163-5bfade5f-b457-42ca-9260-54416ff06325.PNG)
+
+I then updated the data types of the columns. I noticed that now that the symbols are removed, a lot of the columns are now numeric but the data type for these columns are still *chr*, or characters. So, I converted all these columns into numeric data types.
+
+![8](https://user-images.githubusercontent.com/89553126/135875688-a1a432aa-1e51-4a32-b215-f30ab2be5728.PNG)
+
+I then took a second look back to the colums Hispanic, White, Black, Native, Asian and Pacific. The columns represeted the population percentage for each race. To maake any desired calculations easier, the coumns should represent percentages in decimal form. Therefore, I updated the values of these cooumns to be in decimal form.
+
+![9](https://user-images.githubusercontent.com/89553126/135876127-657ea070-e646-4aed-bfd8-324058bb1e52.PNG)
+
