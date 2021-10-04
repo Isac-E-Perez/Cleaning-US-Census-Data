@@ -25,3 +25,7 @@ When inspecting *us_census* I noteiced a column *X1* (or on some computers, *...
 
 ![3](https://user-images.githubusercontent.com/89553126/135871960-a54ab496-c8a0-421c-b05a-8689ca9e037e.PNG)
 
+I noticed that there are six columns representing the popuation percentage from different reaces. The columns include the percent symbol %. So I removed the percent symbol % from each of the race columns (Hispanic, White, Black, Native, Asian, and Pacific). Then I saved the resulting in teh data frame *us_census* and viewed to check the change.
+
+![4](https://user-images.githubusercontent.com/89553126/135872559-549e6830-7af4-4951-b59d-ce989dd80120.PNG)
+
