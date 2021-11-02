@@ -11,7 +11,7 @@ There is data from 10 different .csv of all 50 states.
 
 The goal of this project is to demonstrate that I have knowledge in how to clean and tidy datasets that were just collected and get them ready for data analysis.
 
-I could see that all of the datasets have similar aspects in the save file name. I could take advantage of this when reading the files. It is easier to inspect datasets stored when the files have a data frame.I could read each file in *files* into a data frame using *lapply* and save the result to *df_list* 
+I could see that all of the datasets have similar aspects in the save file name. I could take advantage of this when reading the files. It is easier to inspect datasets stored when the files have a data frame. I could read each file in *files* into a data frame using *lapply* and save the result to *df_list* 
 
 ![1](https://user-images.githubusercontent.com/89553126/135869606-92b835ae-ce11-4858-a059-b7fac4770543.PNG)
 
